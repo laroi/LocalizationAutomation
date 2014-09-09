@@ -1,0 +1,173 @@
+#log in page
+m_login       =	Giriş yapmak için burayı tıklayınız
+m_projectList =	Proje listesi
+m_logout      =	Çıkış yap
+m_issue	      =	Konu(lar)
+#ticket
+m_loading     =	Yükleniyor
+m_tickets     =	Etiketler
+m_ticketId    =	Etiket No
+m_images      =	Görseller
+m_description =	Açıklama
+m_responsible =	Sorumlu
+m_dueDate     =	Bitiş tarihi
+m_dueOn	      =	Bitiş zamanı
+m_lastModified=	Son değişiklik
+m_byWhom      = Kimden taraf
+m_search      =	Ara
+m_selectedMap =	Seçilen planlar
+m_of	      =	veya
+m_back	      =	Geri
+m_save	      =	Kayıt et
+m_consulted   =	Danışılan
+m_informed    =	Bilgilendirilen
+m_title	      =	Konu
+m_started_on  = Başlangıç
+m_changeState =	Değişim durumu
+m_started     =	Başlangıç tarihi 
+m_created     =	Oluşum tarihi
+m_comments    =	Yorumlar
+m_attachments =	Ekler
+m_noTicket    =	Etiket bulunamadı
+m_duedate_placeholder = Due Date seçin
+#audit
+m_audit	    =	Denetimler
+m_newTemplate = Yeni taslak
+m_showArchived=	Arşivlendirilenleri göster
+m_archived    =	Arşivlendirilen
+m_showTemplate=	Taslak göster
+m_allAudits   =	Tüm denetimler
+m_searchById  =	Etiket ID ile ara
+m_searchByAudId =Denetim ID ile ara
+m_searchResp  =	Sorumlu ile ara
+m_auditId     =	Denetim ID
+m_createdDate =	Oluşturulduğu tarih
+m_mapsUsed    =	kullanılan planlar
+m_status	  =	Durum
+m_percentage  =	% tamamlanmıştır
+m_completed   =	Tamamlanma zamanı
+m_inProgress  =	Devam etmekte
+m_nameandsig  =	Denetimçi Ad/Soyad ve imza
+m_enterTemp   =	Taslak ismini gir
+m_selectTempX =	Aşağıdaki mevcut taslaklardan seç
+m_selectSub   =	Alt grup seç
+m_addCategory =	Kategori ekle
+m_saveTemp    =	Taslak kayıt et
+m_clearTemp   =	Taslak temizle
+m_selectTemp  =	Taslak seç
+m_addQuestion =	Soru ekle
+m_addCatMsg   =	Kategori ismini girmek için burayı çift tıkla
+m_addQueMsg   =	Soru eklemek için burayı çift tıkla
+m_UnarchMsg   =	Soru ve Kategorileri görmek için taslağı arşivden çıkart
+m_yes	      =	Evet
+m_no	      =	Hayır
+m_na	      =	NA
+m_archive     =	Arşivlenmiş
+m_unarchive   =	Arşivden çıkart
+m_noAudit	  =	Denetimler bulunmadı
+m_mult_option = Sizin seçeneği eklemek için tıklayınız çift
+m_duplicate   = çift
+m_multiplechoice = özel seçim
+m_freetext       = özel metin
+
+#Messages
+m_invalidData 	  =	Geçersiz bilgi
+m_error	    	  =	hata
+m_warning	  =	uyarı
+m_sorry	    	  =	Üzgünüm
+m_msgTktCreated	  = 	Yeni etiket oluşturuldu
+m_msgQueDel	  =	Bu kategorideki sorular silinecektir
+m_msgAudTempSave	  = 	Denetim taslak kayıt edilmiştir
+m_msgAudTempSaveErr =	Denetim taslak kayıt edilmemiştir
+m_msgFillValue	  =	Denetimi kayıt etmek için değerleri gir
+m_msgValidSubName =	Geçerli alt grup ismini gir
+m_msgNotAuth	  = Bu module giriş için yetkiniz yok
+m_msgTypeOfReport	  =	Nasıl bir rapor istiyorsunuz?
+m_typeOfReport	  =	Rapor tipini seç
+m_compact		  =	Kompakt
+m_detailed	  =	Detaylı
+m_nolicense	  =	Kullandığınız lisansta dentim yoktur. Yükseltmek için, lütfen helpdesk@edcontrols.com ile temas kurunuz.
+m_notValid	  =	Geçerli dosya değil
+m_ticketDetails	  =	Etiket detayları güncellendi
+m_notResponsible	  =	Yetkili olmadan değiştirilemez
+m_cannotChangeState =	Durumu oluşturulmuş haline değişmiyor
+m_noChanges	  =	Güncellenecek değişiklik yok
+m_ticketsNotLoad  =  Etiketlerin tamamı yüklenmedi
+m_printLoad	  = 	Çıktınız hazırlaniyor
+m_auditLoad	  = 	Denetimlerin tamamı yüklenmedi
+m_ticketLoad	  =	Etiketlerin tamamı yüklenmedi
+m_BrowserNotSupported = Web interface girşini Internet Explorer 8 ile yapiyorsunuz. Bu yazılım desteklenmiyor
+m_clickHere	= 	Burayı tıkla
+m_upgradeIE	=	Internet Explorer 10'a yükseltmek için
+m_isntallMozilla=	Mozilla Firefox yüklemek için
+m_companyReguation = Şirket kurallarından dolayı yükseltemiyorsanız
+m_openPrevious	=	Önceki arayüzü açmak için
+#missed
+m_hideArchived=	verberg Gearchiveerd
+m_showResp	=	toon alle verantwoordelijke
+#project list added on 17-09-12
+m_addProject	= voeg nieuwe project
+m_addSubGroup	= voeg nieuwe sub-groep
+m_addMap		= voeg nieuwe kaart
+m_projectName	= Project Naam
+m_location	= Plaats
+m_accountable	= Verantwoordelijk
+m_delegates	= Delegates
+m_cancel	= Annuleren
+m_thumbimg 	= Miniatuurafbeelding
+m_maps		= Kaarten
+m_groupName = groep Naam
+m_map		= kaart
+#missedout
+m_hideArchived=	Arşivlenen gizle
+m_showResp	= Tüm Sorumlu göster
+#project list added on 17-09-12
+m_addProject	= Yeni Proje Ekle
+m_addSubGroup	= Yeni Alt Grup Ekle
+m_addMap		= Yeni Harita Ekle
+m_projectName	= proje Adı
+m_location	= konum
+m_accountable	= açıklanabilir
+m_cancel	= iptal
+m_thumbimg 	= küçük Resim
+m_maps		= Haritalar
+m_groupName = Grup adı
+m_map		= Harita
+
+#30-09-2013
+m_create_new_ticket   = yeni Bilet
+m_sub_group_name      = Yeni alt grup adı yazın
+m_add_new_group       = eklemek
+m_new_tkt_attachments = Ek parçalar (JPG/PNG/PDF/DOC/EXCEL)
+
+#16-10-2013
+m_confirm             = Eger bu sayfadan ayrilmak istediginizden emin misiniz?
+m_confirm_msg         = Sen henüz kaydedilmedi olan bu belgede değişiklik yaptık.
+m_create_ticket       = Bilet oluşturma
+m_Choice_type         = seçim tipi
+m_single              = tek
+m_multiple            = çoklu 
+m_free_text           = serbest metin
+m_mult_choice_single  = Çoktan Seçmeli Tek
+m_mult_choice_double  = Çoktan Seçmeli Çoktan
+m_Yes_no_na           = Evet/Hayır/Na
+
+m_template            = şablon
+m_tkt_det_update      = Bilet Bilgileri Güncelleme
+m_no_chng_to_updat    = Herhangi bir değişiklik güncellemek içine
+m_no_map              = Bu projede hiçbir haritalar vardır
+m_enter_cat_name      = Kategori adı girin
+m_enter_question      = Açılan soru doldurun
+m_enter_option        = Seçenek alanında doldurun
+m_select_choice       = Select the choice type
+m_add_quest_quest     = Şablon için kategori ya da soru ekle
+m_add_question        = En az bir soru ekle
+m_msgQuestDel         = Bu sorunun seçenekleri silinecektir 
+m_saving              = Bilet tasarrufu. Lütfen bekleyin ...
+
+#03-12-13
+m_archiveMap		  = Arşiv Haritası
+m_noti_arch_1		  = Sen arşivleme olacak
+m_noti_arch_2		  = Bu harita ile birlikte bilet. Eğer bu haritayı arşivlemek istediğinizden emin misiniz?
+m_noti_arch_success   = başarıyla arşivlenir
+m_noti_arch_3		  = Not: Eğer geri gerekiyorsa Bu eylem undone.Please irtibat bürosu takım olamaz

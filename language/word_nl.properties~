@@ -1,0 +1,159 @@
+#log in page
+m_login       =	Klik hier om in te loggen
+m_projectList =	Projecten
+m_logout      =	Log uit
+m_issue	      =	Issue(s)
+#ticket
+m_loading     =	Laden
+m_tickets     =	Tickets
+m_ticketId    =	Ticket ID
+m_images      =	Afbeeldingen
+m_description =	Omschrijving
+m_responsible =	Verantwoordelijk
+m_dueDate     =	Eind datum
+m_dueOn	      =	Oplossen voor
+m_lastModified=	Laatse verandering
+m_byWhom      = Door
+m_search      =	Zoek
+m_selectedMap =	Slecteer kaart
+m_of	      =	of
+m_back	      =	terug
+m_save	      =	opslaan
+m_consulted   =	Geraadpleegd
+m_informed    =	Geinformeerd
+m_title	      =	Onderwerp
+m_started_on  = Gestart op
+m_changeState =	Verander status
+m_started     =	Gestart 
+m_created     =	Gemaakt
+m_comments    =	commentaar
+m_attachments =	Bijlagen
+m_noTicket    =	Geen tickets gevonden
+m_duedate_placeholder = Selecteer Due Date
+#audit
+m_audit	    =	Audits
+m_newTemplate = Nieuwe template
+m_showArchived=	Gearchiveerd
+
+m_archived    =	Gearchiveerd
+m_showTemplate=	Template
+m_allAudits   =	Alle Audits
+m_searchById  =	Zoek op ticket id
+m_searchByAudId  =Zoek op audit id
+m_searchResp  =	Zoek op veratwoordelijke
+m_auditId     =	Audit id
+m_createdDate =	Gemaakt op
+m_mapsUsed    =	Gebruikte kaarten
+m_status	    =	Status
+m_percentage  =	% Gereed
+m_completed   =	Afgerond op
+m_inProgress  =	in uitvoering
+m_nameandsig  =	Naam auditor en handtekening
+m_enterTemp   =	Voer template naam in
+m_selectTempX =	Selecteer bestaande template uit onderstaande
+m_selectSub   =	Selecteer sub groep
+m_addCategory =	Voeg categorie toe
+m_saveTemp    =	Sla template op
+m_clearTemp   =	Verwijder invoer
+m_selectTemp  =	selecteer template
+m_addQuestion =	voeg vraag toe
+m_addCatMsg   =	Dubbel klik hier om de categorie te typen
+m_addQueMsg   =	Dubbel klik hier om uw vraag toe tevoegen
+m_UnarchMsg   =	De-archiveer de template om de vragen en categoriën te zien
+m_yes	      =	Ja
+m_no	      =	Nee
+m_na	      =	N.v.t
+m_archive     =	Gearchiveerd
+m_unarchive   =	de-archiveer
+m_noAudit	  =	Geen Audits gevonden
+m_mult_option = Dubbelklik hier om uw keuze toe te voegen
+m_duplicate   = Duplicaat
+m_multiplechoice = Aangepaste selectie
+m_freetext       = Aangepaste tekst
+
+#Messages
+m_invalidData 	  =	Geen correcte data
+m_error	    	  =	fout
+m_warning	  =	waarschuwing
+m_sorry	    	  =	sorry
+m_msgTktCreated	  = 	Nieuw ticket gemaakt
+m_msgQueDel	  =	Vragen in deze categorie  worden verwijderd
+m_msgAudTempSave	  = 	Uw audit wordt opgeslagen
+m_msgAudTempSaveErr =	Uw audit is niet opgeslagen
+m_msgFillValue	  =	Voer waarden in voor op te slaan
+m_msgValidSubName	  =	Voer een correcte subgroep naam in
+m_msgNotAuth	  =	U bent niet geautoriseerd om deze module te openen
+m_msgTypeOfReport	  =	Welk type rapport is gewenst?
+m_typeOfReport	  =	Selecteer type rapport
+m_compact		  =	compact
+m_detailed	  =	gedetailleerd
+m_nolicense	  =	Audits is geen onderdeel van uw licensie.  Neem contact op met helpdesk@edcontrols.com voor een upgrade
+m_notValid	  =	Geen toegestaan bestand
+m_ticketDetails	  =	Tickets details zijn geupdate
+m_notResponsible	  =	Kan niet aanpassen zonder verantwoordelijke
+m_cannotChangeState =	Kan de status niet veranderen naar gemaakt
+m_noChanges	  =	Geen veranderingen
+m_ticketsNotLoad  =  	Tickets zijn nog niet geheel geladen
+m_printLoad	  = 	Uw print wordt gemaakt
+m_auditLoad	  = 	Audits zijn nog niet geheel geladen
+m_ticketLoad	  =	Tickets zijn nog niet geheel geladen
+m_BrowserNotSupported = U probeert onze website te openen met Internet Explorer 8. Deze browser wordt niet ondersteund
+m_clickHere	= 	Klik hier
+m_upgradeIE	=	om te upgraden naar Internet Explorer 10 of
+m_isntallMozilla=	 om Mozilla Firefox te installeren
+m_companyReguation = 	Als u niet kunt upgraden vanwege bedrijfsvoorschriften
+m_openPrevious	=	om de vorige interface te openen
+#missed
+m_hideArchived=	verberg Gearchiveerd
+m_showResp	=	toon alle verantwoordelijke
+#project list added on 17-09-12
+m_addProject	= voeg nieuwe project
+m_addSubGroup	= voeg nieuwe sub-groep
+m_addMap		= voeg nieuwe kaart
+m_projectName	= Project Naam
+m_location	= Plaats
+m_accountable	= Verantwoordelijk
+m_delegates	= Delegates
+m_cancel	= Annuleren
+m_thumbimg 	= Miniatuurafbeelding
+m_maps		= Kaarten
+m_groupName = groep Naam
+m_map		= kaart
+
+#30-09-2013
+m_create_new_ticket   = Nieuw ticket
+m_sub_group_name      = Typ nieuwe sub-groep naam
+m_add_new_group       = toevoegen
+m_new_tkt_attachments = Bijagen (JPG/PNG/PDF/DOC/EXCEL)
+
+#16-10-2013
+m_confirm             = Weet u zeker dat u deze pagina wilt verlaten?
+m_confirm_msg         = U hebt wijzigingen in dit document die nog niet zijn opgeslagen gemaakt.
+m_create_ticket       = Ticket maken
+m_Choice_type         = soort keuze
+m_single              = Single
+m_multiple            = meervoudig  
+m_free_text           = vrije tekst
+m_mult_choice_single  = Multiple Choice Single
+m_mult_choice_double  = Multiple Choice Multiple
+m_Yes_no_na           = Ja/Nee/N.v.t.
+
+m_template            = sjabloon
+m_tkt_det_update      = Ticket Details Bijgewerkt
+m_no_chng_to_updat    = Geen wijzigingen bij te werken
+m_no_map              = Er zijn geen kaarten in dit project
+m_enter_cat_name      = Voer categorienaam
+m_enter_question      = Vul de ingediende vraag
+m_enter_option        = Vul het veld opties
+m_select_choice       = Select the choice type
+m_add_quest_quest     = Categorie of een vraag toe te voegen voor de sjabloon
+m_add_question        = Voeg ten minste een vraag
+m_msgQuestDel         = Mogelijkheden van deze vraag zal worden verwijderd  
+m_saving              = Het opslaan van de ticket. Even geduld aub ...
+
+#03-12-13
+m_archiveMap		  = Archief Kaart
+m_noti_arch_1		  = U wordt archiveren
+m_noti_arch_2		  = tikcets samen met deze kaart. Weet je zeker dat je deze kaart wil archiveren?
+m_noti_arch_success   = is succesvol gearchiveerd
+m_noti_arch_3		  = Let op: Deze actie kan undone.Please contact helpdesk team niet zijn als je weer nodig hebt
