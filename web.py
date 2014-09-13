@@ -41,12 +41,10 @@ def webLocalizer(args) :
 
 	## writing word.properties first with input string
 	filePath = path.abspath(envData["project"] + "/" + "web" + "/" + "word.properties")
-	print "printing file path"
-	print filePath
 	#writeToFile(filePath, args.input)
 
 	## Looping through target Languages
-	'''
+	
 	for lang in envData["target"] :
 		targetLangugaeCode = getLanguageCode(lang);
 		try:
@@ -56,7 +54,6 @@ def webLocalizer(args) :
 				writeToFile(filePath, data['text'][0].encode('utf-8'))
 		except Exception as e :
 			print e
-'''
 
 def localizeMe(args) :
 	webLocalizer(args)
