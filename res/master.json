@@ -1,3 +1,30 @@
 {
-			
+	"login_page": {
+		"m_btn_login": {
+			"locale": {
+				“de”: “Login”,
+		        “en”: “Login”,
+				“nl”: “Login”,
+		        “tr”: “Login”,
+			},
+			"platform": {
+				"android": true,
+				"ios": true,
+				"web": true
+			},
+		},
+		"m_txt_abutUs": {
+			"locale": {
+				“de”: “About Us”,
+		        “en”: “About Us”,
+				“nl”: “About Us”,
+		        “tr”: “About Us”,
+			},
+			"platform": {
+				"android": true,
+				"ios": true,
+				"web": true
+			},
+		}
+	}
 }
