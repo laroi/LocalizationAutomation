@@ -1,5 +1,6 @@
 {
 	"source":"english",
 	"target": ["dutch", "german", "turkish"],
-	"project": "./language"
+	"project": "./language",
+	"platform": ["web", "ios", "android"]
 }
