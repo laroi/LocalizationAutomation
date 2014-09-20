@@ -1,5 +1,6 @@
 {
-"source":"english",
-"target": ["dutch", "german", "turkish"],
-"project": "./language"
+	"source":"english",
+	"target": ["dutch", "german", "turkish"],
+	"project": "./language",
+	"resultLocation": "res"
 }

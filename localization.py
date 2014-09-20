@@ -10,10 +10,9 @@
 import argparse
 
 ## User defined modules
-import android
-import ios
-import web
-
+from modules import android
+from modules import ios
+from modules import web
 
 #
 #parsing arguments
