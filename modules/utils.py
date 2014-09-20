@@ -10,10 +10,7 @@ envData = []
 
 ## Reading settings
 def getEnvData() :
-	with open('./settings.json') as json_data :
-		envData = json.load(json_data)
-		json_data.close()
-		return envData;
+    return readJson('../settings.json')
 
 ## Function to get correspodning Language code
 def getLanguageCode(Language):
@@ -27,4 +24,10 @@ def getLanguageCode(Language):
 	elif Language == "english":
 		languageCode = "en"
 	return languageCode
-#print "Translating < "+ args.input + " > from "+ envData["source"] +" to "+ ",".join(envData["target"])
+
+#function to read any json file from specific path
+def readJson(_path):
+    with open(_path) as json_data :
+	    _json_data = json.load(json_data)
+	    json_data.close()
+	    return _json_data;
