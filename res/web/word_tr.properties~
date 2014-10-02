@@ -1,0 +1,293 @@
+#log in page
+m_login       =	Giriş yapmak için burayı tıklayınız
+m_projectList =	Proje listesi
+m_logout      =	Çıkış yap
+m_issue	      =	Ticket(lar)
+
+#ticket
+testing                  =          test
+testing                  =          test
+testing                  =          test
+m_loading     =	Yükleniyor
+m_tickets     =	Etiketler
+m_ticketId    =	Etiket No.
+m_images      =	Görseller
+m_description =	Açıklama
+m_responsible =	Sorumlu
+m_dueDate     =	Bitiş tarihi
+m_dueOn	      =	Bitiş tarihi:
+m_lastModified=	Son değişiklik
+m_byWhom      = Kimden taraf
+m_search      =	Ara
+m_of	      =	veya
+m_back	      =	Geri
+m_save	      =	Kayıt et
+m_consulted   =	Danışılan
+m_informed    =	Bilgilendirilen
+m_title	      =	Konu
+m_started_on  = Başlangıç
+m_changeState =	Değişim durumu
+m_started     =	Başlangıç tarihi
+m_created     =	Oluşum tarihi
+m_complete    = Tamamlanmıştır
+m_comments    =	Yorumlar
+m_attachments =	Ekler
+m_noTicket    =	Etiket bulunamadı
+m_duedate_placeholder = Due Date seçin
+m_showResp	  =	Tüm Sorumlu Göster
+
+#audit
+m_audit	      =	Denetimler
+m_newTemplate = Yeni taslak
+m_showArchived=	Arşivlendirilenleri göster
+m_archived    =	Arşivlendirilen
+m_showTemplate=	Taslak göster
+m_allAudits   =	Tüm denetimler
+m_searchById  =	Etiket No. ile ara
+m_searchByAudId = Denetim ID ile ara
+m_searchResp  =	Sorumlu ile ara
+m_auditId     =	Denetim ID
+m_createdDate =	Oluşturulduğu tarih
+m_mapsUsed    =	kullanılan planlar
+m_status	  =	Durum
+m_percentage  =	% tamamlanmıştır
+m_completed   =	Tamamlanma zamanı
+m_inProgress  =	Devam etmekte
+m_nameandsig  =	Denetimci Ad/Soyad ve imza
+m_enterTemp   =	Taslak ismini gir
+m_selectTempX =	Aşağıdaki mevcut taslaklardan seç
+m_selectSub   =	Alt grup seç
+m_addCategory =	Kategori ekle
+m_saveTemp    =	Taslak kayıt et
+m_clearTemp   =	Taslak temizle
+m_selectTemp  =	Taslak seç
+m_addQuestion =	Soru ekle
+m_addCatMsg   =	Kategori ismini girmek için burayı çift tıkla
+m_addQueMsg   =	Soru eklemek için burayı çift tıkla
+m_UnarchMsg   =	Soru ve Kategorileri görmek için taslağı arşivden çıkarın
+m_yes	      =	Evet
+m_no	      =	Hayır
+m_na	      =	n.a.
+m_archive     =	Arşivle
+m_unarchive   =	Arşivden çıkart
+m_noAudit	  =	Denetimler bulunmadı
+m_mult_option = Sizin seçeneği eklemek için tıklayınız çift
+m_duplicate   = çift
+m_multiplechoice = özel seçim
+m_freetext       = özel metin
+m_hideArchived   = Gizle Arşivlenen
+
+#Messages
+m_invalidData	   = Geçersiz bilgi
+m_error	    	   = hata
+m_warning	       = uyarı
+m_sorry	    	   = Özür dileriz
+m_msgTktCreated    = Yeni etiket oluşturuldu
+m_msgQueDel	       = Bu kategorideki sorular silinecektir
+m_msgAudTempSave   = Denetim taslak kayıt edilmiştir
+m_msgAudTempSaveErr= Denetim taslak kayıt edilmemiştir
+m_msgFillValue	   = Denetimi kayıt etmek için değerleri gir
+m_msgValidSubName  = Geçerli alt grup ismini gir
+m_msgNotAuth	   = Bu module giriş için yetkiniz yok
+m_msgTypeOfReport  = Nasıl bir rapor istiyorsunuz?
+m_typeOfReport	   = Rapor tipini seç
+m_compact		   = Kompakt
+m_detailed	       = Detaylı
+m_nolicense	       = Kullandığınız lisansta dentim yoktur. Yükseltmek için, lütfen helpdesk@edcontrols.com ile temas kurunuz.
+m_notValid	       = Geçerli dosya değil
+m_ticketDetails	   = Ticket detayları güncellendi
+m_notResponsible   = Yetkili olmadan değiştirilemez
+m_cannotChangeState = Durumu oluşturulmuş haline değişmiyor
+m_noChanges	        = Güncellenecek değişiklik yok
+m_ticketsNotLoad    = Ticketlerin tamamı yüklenmedi
+m_printLoad	        = Çıktınız hazırlaniyor
+m_auditLoad	        = Denetimlerin tamamı yüklenmedi
+m_ticketLoad	      =	Etiketlerin tamamı yüklenmedi
+m_BrowserNotSupported = Web interface girşini Internet Explorer 8 ile yapiyorsunuz. Bu yazılım desteklenmiyor
+m_clickHere	          =	Burayı tıkla
+m_upgradeIE	          =	Internet Explorer 10'a yükseltmek için
+m_isntallMozilla      =	Mozilla Firefox yüklemek için
+m_companyReguation    = Şirket kurallarından dolayı yükseltemiyorsanız
+m_openPrevious        =	Önceki arayüzü açmak için
+m_project_creating    = Proje oluşturulur ediliyor. Lütfen bekleyin ...
+m_export_load         = Sizin levha excel hazırlanıyor. Lütfen bekleyin.
+m_excel               = Excel
+m_export_msg	      = Rapor gönderilir
+m_export_err	      = Hata ihracat oldu
+m_add                 = Ekle
+
+#project list and edit project added on 17-09-12
+m_addProject   = Yeni Proje Ekle
+m_addSubGroup  = Yeni Alt Grubu Ekle
+m_addMap       = Haritayı eklemek için tıklayınız
+m_projectName  = Proje Adı
+m_location	   = Yer
+m_accountable  = Sorumlu
+m_delegates	   = Delegeler
+m_cancel	   = İptal
+m_thumbimg     = Proje Görüntü
+m_maps         = Gruplar ve Haritalar
+m_groupName    = groep Naam
+m_map		   = Harita
+
+#30-09-2013
+m_create_new_ticket   = Yeni Ticket
+m_sub_group_name      = Yeni alt grup adı yazın
+m_add_new_group       = Ekle
+m_new_tkt_attachments = Ek parçalar (JPG/PNG/PDF/DOC/EXCEL)
+
+#16-10-2013
+m_confirm             = Eger bu sayfadan ayrilmak istediginizden emin misiniz?
+m_confirm_msg         = Sen henüz kaydedilmedi olan bu belgede değişiklik yaptık.
+m_create_ticket       = Bilet oluşturma
+m_Choice_type         = seçim tipi
+m_single              = tek
+m_multiple            = çoklu 
+m_free_text           = serbest metin
+m_mult_choice_single  = Çoktan Seçmeli Tek
+m_mult_choice_double  = Çoktan Seçmeli Çoktan
+m_Yes_no_na           = Evet/Hayır/Na
+m_template            = şablon
+m_tkt_det_update      = Ticket Bilgileri Güncellendi
+m_no_chng_to_updat    = Herhangi bir değişiklik güncellemek içine
+m_no_map              = Bu projede harita bulunmuyor
+m_enter_cat_name      = Kategori adı girin
+m_enter_question      = Açılan soru doldurun
+m_enter_option        = Seçenek alanında doldurun
+m_select_choice       = Seçim türünü seçin
+m_add_quest_quest     = Şablon için kategori ya da soru ekle
+m_add_question        = En az bir soru ekle
+m_msgQuestDel         = Bu sorunun seçenekleri silinecektir 
+m_saving              = Bilet tasarrufu. Lütfen bekleyin ...
+m_audit_title         = denetim Başlık
+m_add_map             = Haritalar ekle
+m_aud_name_sign       = Denetçi Adı ve İmzası
+m_map_placeholder     = Gerekli haritalar eklemek
+m_select              = Seçmek
+m_done                = Tamam
+m_cust_ans            = Girmek
+m_new_aud             = yeni Denetim
+m_selected_map        = seçilmiş Harita
+m_aud_warning         = Denetim burada tamamlanmış olamaz.Denetim ve imza sonuca ekleme yapabilirsiniz, sadece iPad üzerinde.
+m_remove_ticket       = Eğer seçilen bilet kaldırmak istediğinizden emin misiniz
+m_saving_audit        = Denetim tasarrufu. Lütfen bekleyin ...
+
+#16-01-2014
+m_unarch_map     = Siz arşiv harita üzerinde bir bilet arşivden üzeresiniz. Bu aitti haritayı arşivden olacaktır. Devam etmek istiyor musunuz
+m_sel_audit_type = Denetim türünü seçin
+m_aud_type_area  = alan
+m_aud_type_obj   = nesne
+m_aud_obj_alert  = Mevcut bilet tipi "Nesne" denetimlerine ilave edilemez
+m_change_status_warning1 = Statü değiştiremezsiniz
+m_change_status_warning2 = sorumlu olmadan
+m_change_create_warning  = Sorumlu ile oluşturulan için durumu değiştiremezsiniz
+m_timeline_entries       = çizelgesinde girdiler
+m_invalid_date           = Geçersiz Tarih!
+m_timeline               = Timeline
+m_edit                   = Düzenle
+m_add_option             = Çift sizin seçeneği eklemek için buraya tıklayın
+
+# Strings related to map tool project creation and login starts here
+#05-11-2013
+m_logoimg      = Satılık Fotoğraf
+m_client       = Müşteri
+m_addMap       = Haritayı eklemek için tıklayınız
+m_addGrp       = Grup eklemek için tıklayın
+
+# Edit project related strings
+m_editProject           = Proje Düzenle
+m_alert_pjt_name        = Lütfen girin proje adı
+m_alert_pjt_location    = Lütfen konumu girin
+m_alert_pjt_accountable = Lütfen hesap verebilir girin
+m_edit_success          = Düzenleme Başarılı
+m_pjt_edited            = Proje Başarıyla Düzenlendi
+m_edit_failed           = Proje düzenleme başarısız
+m_pjt_edit_fail         = Fehler beim Bearbeiten
+
+#05-12-2013
+m_noti_arch_proj_que    = Gerçekten bu projeyi arşivlemek istiyor musunuz?
+m_noti_arch_proj_1      = Proje
+m_noti_arch_proj_2      = başarıyla arşivlenir
+m_archive_project       = Arşiv Projesi
+m_show_archived_project = Göster Arşivlenen Projesi
+m_noti_unarch_proj_que  = Bu projeyi arşivden gidiyoruz
+m_unarchive_project     = arşivden Çıkar Projesi
+m_noti_unarch_proj_2    = Başarıyla arşivden olduğunu
+m_location_address      = Adresini ver ya da Haritada seçin
+
+#19-12-13
+m_project_create_success = Proje başarıyla oluşturulur
+m_project_create_failure = Creatie proje falied
+m_archived_project       = Proje arşivlendi. Bu projeyi erişmek için yeterli izniniz yok.
+m_edit_alert             = Siz arşiv projesi düzenleyemezsiniz. Düzenlemeden önce projeyi arşivden.
+m_edit_project           = Düzenleme Projesi
+m_edit_project_map       = Düzenleme için grup veya kartın adını çift tıklatın
+m_project_not_found      = Bu proje mevcut değildir
+m_license_not_available_title = Mevcut Hayır Lisans
+m_license_not_available_desc  = Lisans başarısız iddia ederek.Uygulama sadece okuma modunda olacaktır.
+m_license_info_not_available  = Bilgi mevcut değil.
+m_no_contracts                = Sen hiçbir sözleşme yok
+m_support                = Destek
+m_file_type              = Geçerli bir dosya türü. Sadece JPEG görüntüler desteklenir
+m_file_size              = Geçerli bir dosya boyutu. Maksimum boyut sınırı 500KB olduğunu
+m_file_upload_msg        = Yükleme projesi fotoğraf veya logo IE9 tarayıcıda mevcut değildir. IE10 için tarayıcınızı yükseltin ya da yukarıda bu özelliği var.
+
+#map_manipulation_tool_starts
+m_edit_map_button = Eklemek / Düzenle Haritası
+m_tool_name       = Harita Manipülasyon
+m_add_new_group   = Grubu Ekle
+m_edit_group_name = Düzenle grup adı
+m_edit_map_name   = Düzenle harita ismi
+m_archive_map     = Arşiv haritası
+m_new_group       = Yeni Grup
+m_archiveMap	  = Harita Arşivi
+m_unarchive_map   = Harita Arşivden Çıkar
+m_noti_arch_1		  = Ayrıca bu haritayı Arşivleme arşivleri
+m_noti_arch_2		  = mevcut biletler. Eğer bu haritayı arşivlemek istediğinizden emin misiniz?
+m_noti_arch_success   = basariyla arsivlenir
+m_noti_arch_3		     = Eğer bu haritayı arşivlemek istediğinizden emin misiniz?
+m_drag_drop              = Sürükle ve Bırak PDF Dosyalarını
+m_unarchive_notification = Eğer bu haritayı arşivden istediğinizden emin misiniz?
+m_file_type_error        = Sadece PDF dosyaları desteklenir. Haritası oluşturmak PDF dosyalarını yüklemek Lütfen.
+m_map_processing_alert   = Haritaların işlenmesi bazen alacaktır. Sen tamamlandıktan sonra e-posta ile haberdar edilecektir.
+m_map_upload_alert       = Yükleme. Lütfen Bekleyin.
+m_map_group_alert        = Grup adını güncelleniyor. Lütfen Bekleyin.
+m_map_achhive_alert      = Arşivleme haritası. Lütfen Bekleyin.
+m_map_unarchive_alert    = Haritayı unarchiving. Lütfen Bekleyin.
+m_map_change_alert       = Grubunun değiştirilmesi. Lütfen Bekleyin.
+#map_manipulation_tool_ends
+
+m_select_contract        = Klik op een van de contracten over te gaan
+m_contract_loading       = Yükleme sözleşme Listesi
+m_need_license           = Siz projeyi düzenlemek için bir lisans gerekir
+m_project_retrive_err    = Bazı Hata projeleri alınırken oldu
+m_leave_page_msg         = Eğer bu sayfadan ayrılmak istediğinizden emin misiniz
+m_no_license             = Bu sözleşme sahibi ben değilim
+m_project_creation_title = Proje oluşturma
+m_error_get_contract     = Sözleşmeler alınırken bir hata oluştu
+m_license_server_not_running = Lisans sunucusu çalışmıyor
+
+#login
+m_about_us              = ED Controls hakkında
+m_about_us_body		    = ED Controls ile iPad’de inşaat proje yönetimi ve tüm proje ekibi ile Online işbirliği mümkündür. Hızlı ve basit bir uygulamadır! Daima güncel mimari çizim mevcut olmasi ile zamandan ve paradan tasarruf edin.
+m_about1_us_body        = ED Controls Interactive Blueprints şirketi tarafindan bir uygulamadir. Ürünlerimizin kullanımı işyerinde ve yönetimde daha fazla katılım, kolaylık ve eğlence sağlar.
+m_instruction_pdf       = Talimatlar (PDF)
+m_instruction_manager   = Proje yöneticiler için
+m_manual_link1          = Web-interface talimatı
+m_manual_link2          = iPad talimatı
+m_manual_link3          = iPhone talimatı
+m_manual_link4          = Fotoğraf nasıl yükleyebilirim?
+m_instruction_sub       = Taşeronlar için
+m_instruction_sub_login = Ticket’lerimi nasıl görüntüleyebilirim?
+m_manual_term           = Şartlar ve koşullar
+m_login                 = Giriş
+
+#login_fail
+m_dear      = Sevgili
+m_no_info   = şu anda sizin için hiçbir bilgi mevcuttur. Eğer doğru e-posta adresini kullanabilirsiniz mü?
+m_more_info = Eğer ED denetimleri hakkında daha fazla bilgi ister misiniz? tıklayınız
+m_here      = burada.
+# Strings related to map tool project creation and login ends here
+#--LicenseUsageInfo
+m_license_usage_noti_title = Lisans Kullanım Bilgisi
+m_license_usage_noti_error = İşleyemez bu dönem için grafik
