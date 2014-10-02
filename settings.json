@@ -1,6 +1,7 @@
 {
-	"source":"english",
+	"source": "english",
 	"target": ["dutch", "german", "turkish"],
 	"project": "./language",
-	"platform": ["web", "ios", "android"]
+	"result": "./res",
+	"masterFileName": "master.json"
 }

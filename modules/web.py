@@ -1,59 +1,76 @@
+'''
+If the appType is "web" Read the content of master file (master.json) and 
+update ".properties files"
+'''
+
 ## Importing modules
 import os
+import json
 from os import path
 
 ## Importing user defined modules
 import utils
 
 ## Variables
-envData = []
-sourceLanguageCode = ""
-targetLangugaeCode = ""
-languageFile = ""
-filePath = ""
-index = 0
-newString = ""
+masterfilePath = "";
+masterData     = "";
+targetLanguage = "";
 
-## Function to write to file
-def writeToFile(filePath, inString):
-    fileObj = open(filePath, 'rw+')
-    languageFile = fileObj.read()
-    if(args.existing):
-        if(args.existing != ""):
-            if("#" + args.existing in languageFile):
-                print "[MANIPULATE FILE] Found " + args.existing + " header in " + envData["project"] + "/" + "word_" + targetLangugaeCode + ".properties"
-                index = languageFile.index("#" + args.existing) + len("#" + args.existing)
-                newString = "\n" + args.variable.encode('utf-8')
-                for i in range(0, 25 - len(args.variable.encode('utf-8'))):
-                    newString += " "
-                newString += "="
-                newString += "          "
-                newString += inString
-                fileObj.seek(0)
-                fileObj.write(languageFile[:index] + newString + languageFile[index:])
-                fileObj.truncate()
-                print "File " + envData["project"] + "/" + "word_" + targetLangugaeCode + ".properties is written with " + args.variable
-    fileObj.close()
+## function makeString starts here
+## Functions creates string, required to be written to the language file
+def makeString(lang, args, data, env) :
+    key       = "";
+    value     = "";
+    header    = ""; # Name of the header under which string needs to be stored.
+    platform  = ""; # To check if the web platform is set to true in master file.
+    reqString = ""; # Required string to be written to the languages file.
+    filePath  = ""; # Path for the language file.
+    langCode  = ""; # Target language code
+    master    = ""; # Master file data (master.json)
+    envData   = ""; # Environment varialbles (settings.json)
+    fileObj   = ""
+    
+    langCode = lang;
+    master   = data;
+    envData  = env;
+    filePath = path.abspath(envData["result"] + "/" + "web" + "/" + "word_" + langCode + ".properties");
+    key      = args.variable;
+    # if args.new create new header and append the translation (key, value pair) under the new header.
+    # else append the translation (key, value pair) under existing header.
+    if (args.new) :
+        header = args.new;
+    else :
+        header = args.existing;
+    platform = data[header][key]["platform"]["web"];
+    value    = data[header][key]["locale"][langCode];
 
+    if (platform) :
+        reqString = key;
+        reqString = reqString + " " + "=" + " " + value;
+        #print reqString;
+        
+        fileObj = open(filePath, 'rw+');
+        fileObj.write(reqString);        
+    else :
+        print "Sorry! The given translation is not required for web app";
+## function makeString ends here
+
+## function webLocalizer starts here
 def webLocalizer(args) :
-	envData = utils.getEnvData()
-	sourceLanguageCode = utils.getLanguageCode(envData["source"])
+    envData = [];
+    envData = utils.getEnvData();
+    targetLanguage = envData["target"];
 
-	## writing word.properties first with input string
-	filePath = path.abspath(envData["project"] + "/" + "web" + "/" + "word.properties")
-	#writeToFile(filePath, args.input)
+    if (envData) :
+        masterfilePath = utils.getMasterFilePath();
+        masterData = utils.readJson(masterfilePath);
 
-	## Looping through target Languages
-	
-	for lang in envData["target"] :
-		targetLangugaeCode = getLanguageCode(lang);
-		try:
-			data = json.load(urllib2.urlopen('https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20140802T110726Z.747086742c9049f1.dccfdbd9845f6c754dc7bfe9d83e72d34aa33993&lang=' + sourceLanguageCode + "-" + targetLangugaeCode + '&text='+args.input))
-			if (data["code"] == 200) :
-				filePath = path.abspath(envData["project"] + "/" + "web" + "/" + "word_" + targetLangugaeCode + ".properties")
-				writeToFile(filePath, data['text'][0].encode('utf-8'))
-		except Exception as e :
-			print e
+        # to check if the master string file is loaded or not
+        if (masterData) :
+            for lang in targetLanguage :
+                targetLangugaeCode = utils.getLanguageCode(lang);
+                makeString(targetLangugaeCode, args, masterData, envData);
+## function webLocalizer ends here
 
 def localizeMe(args) :
-	webLocalizer(args)
+    webLocalizer(args);

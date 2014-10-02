@@ -5,6 +5,10 @@
 #####################################################################
 
 import utils
+import android
+import ios
+import web
+
 ########################################################################################################################
 #
 #params : variable    => name of the variable to be used in app eg - m_login,
@@ -21,7 +25,10 @@ _envData = utils.getEnvData()
 jsonData = {}
 locale = {}
 platform = {}
-def updateMasterFile(variable, section, newSection, description, tag, platforms, languages):
+appType = ""
+
+'''
+def updateMasterFile(variable, section, newSection, description, tag, platforms, languages) :
     if(not variable):
         print "Variable not found"
         return False;
@@ -31,7 +38,7 @@ def updateMasterFile(variable, section, newSection, description, tag, platforms,
     if(not tag):
         print "tag not found"
         return False;
-
+    
     masterData = utils.readJson('../res/master.json')
     if (newSection):
         jsonData[section] = {variable:{'locale':{}, 'platform':{}}}
@@ -53,5 +60,17 @@ def updateMasterFile(variable, section, newSection, description, tag, platforms,
     jsonData[section][variable]['locale'] = locale
     jsonData[section][variable]['platform'] = platform
     print jsonData
+    '''
 
-updateMasterFile("m_login", "log in", True, "this is test", "login", False, False);
+#updateMasterFile("m_login", "log in", True, "this is test", "login", False, False);
+
+def updateMasterFile(args) :
+    # first update the master file and then from master file update the platform compatable localization file 
+    # check app type amd update the related languages file
+    appType = args.appType;
+    if ("android" in appType) :
+        android.localizeMe(args);
+    if ("ios" in appType) :
+        ios.localizeMe(args);
+    if ("web" in appType) :
+        web.localizeMe(args);

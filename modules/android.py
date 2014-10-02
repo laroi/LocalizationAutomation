@@ -1,9 +1,11 @@
 
+
+## Importing modules
+import os
+from os import path
+
 ## Importing user defined modules
 import utils
 
-## Variables
-envData = []
-
 def localizeMe(args) :
-	envData = utils.getEnvData()
+	print "Updating android compatable .xml file"
