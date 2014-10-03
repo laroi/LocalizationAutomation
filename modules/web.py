@@ -11,11 +11,6 @@ from os import path
 ## Importing user defined modules
 import utils
 
-## Variables
-masterfilePath = "";
-masterData     = "";
-targetLanguage = "";
-
 ## function makeString starts here
 ## Functions creates string, required to be written to the language file
 def makeString(lang, args, data, env) :
@@ -28,7 +23,8 @@ def makeString(lang, args, data, env) :
     langCode  = ""; # Target language code
     master    = ""; # Master file data (master.json)
     envData   = ""; # Environment varialbles (settings.json)
-    fileObj   = ""
+    fileObj   = "";
+    fileData  = "";
     
     langCode = lang;
     master   = data;
@@ -45,19 +41,36 @@ def makeString(lang, args, data, env) :
     value    = data[header][key]["locale"][langCode];
 
     if (platform) :
-        reqString = key;
-        reqString = reqString + " " + "=" + " " + value;
-        #print reqString;
-        
-        fileObj = open(filePath, 'rw+');
-        fileObj.write(reqString);        
+        try :
+            fileObj  = open(filePath, 'rw+');
+            fileData = fileObj.read();
+            #print fileData.index("#" + header);
+            
+            if (("#" + header) in fileData) :
+
+                fileObj.seek(fileData.index("#" + header) + len("#" + header));
+                reqString = "\n" + key + " " + "=" + " " + value + "\n";
+                #fileObj.write(reqString);
+                print reqString;
+            else :
+                print "its not there in file";
+            
+            #fileObj.write(reqString);
+            fileObj.close();
+        except Exception as e :
+            print "error while writing key value pair into localization files" + e;
     else :
         print "Sorry! The given translation is not required for web app";
 ## function makeString ends here
 
 ## function webLocalizer starts here
 def webLocalizer(args) :
+    masterfilePath = "";
+    masterData     = "";
+    targetLanguage = "";
     envData = [];
+
+    # Get the environment variables (settings data)
     envData = utils.getEnvData();
     targetLanguage = envData["target"];
 

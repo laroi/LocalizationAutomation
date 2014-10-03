@@ -23,6 +23,10 @@ parser.add_argument("-e", "--existing", default = "", help = "Under the existing
 parser.add_argument("-n", "--new", default = "", help = "Under the new header you want to add the translation eg:- log_in_page")
 args = parser.parse_args()
 
+# Example command to run
+# python localization.py  -t "android" -v "m_btn_login" -i "login" -e "login_page"
+# python localization.py  -t "ios" -v "m_btn_login" -i "login" -e "login_page"
 # python localization.py  -t "web" -v "m_btn_login" -i "login" -e "login_page"
-print "-------Localization-------";
+
+print "-----Localization-----";
 master.updateMasterFile(args);
