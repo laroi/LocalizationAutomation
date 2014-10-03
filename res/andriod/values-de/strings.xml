@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ED Controls</string>
+    <string name="action_settings">Einstellungen</string>
+
+    <!-- Project list page strings -->
+
+    <string name="project_title">ED Controls</string>
+    <string name="device_id">ID : f3863bb2317a42f4b646bb69f4db513c05df2aca</string>
+    <string name="project_issues">Ticket(s)</string>
+    <string name="settings_title">Einstellungen</string>
+    <string name="show_mini_map">Mini-Map zeigen</string>
+    <string name="show_first_photo">Erstes Foto zeigen</string>
+    <string name="compact">Kompakt</string>
+    <string name="erase_data">Daten löschen</string>
+    <string name="last_compact_was_on">Letzter Kompakt war am:</string>
+    <string name="please_wait">Bitte warten Sie, während Projekte werden geladen...</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="select_user">Wählen Sie den Benutzer</string>
+    <string name="project_replicating">Bitte warten Sie, das Projekt zu replizieren ...</string>
+    <string name="try_again">Bitte versuchen Sie es erneut ...</string>
+    <string name="photo_not_saved">Foto nicht gespeichert bitte versuchen Sie es erneut ...</string>
+    <string name="no_network_connection_toast">Keine Netzwerkverbindung gefunden</string>
+    <string name="logged_in_as">Angemeldet als:</string>
+    <string name="app_version">App Version:</string>
+    <string name="project_information">Projekt Information</string>
+    
+    <!-- compacting the all database  -->
+    <string name="compact">Kompakt</string>
+    <string name="last_compact_was_on">Letzter Kompakt war am</string>
+    <string name="compact_all_databases">Kompakten aller Databases …</string>
+    <string name="compact_alert_mesg">Eine Komprimierung nur bei Bedarf ausführen. Das Komprimieren kann mehrere Minuten dauern.</string>
+    <string name="comapact_completed">Compact ist erfolgreich abgeschlossen</string>
+
+    <!-- Main screen strings -->
+
+    <string name="logout_message">Sind Sie sicher, dass Sie sich ausloggen möchten?</string>
+    <string name="main_screen_settings_title">Projekt instellingen</string>
+    <string name="accountable">Verantwortlich:</string>
+    <string name="main_consulted">Konsultiert:</string>
+    <string name="active_user">Aktiver User:</string>
+    <string name="search_ticket">Ticket Suche</string>
+    <string name="search_by_ticket_id">Suche nach Ticket ID</string>
+    <string name="search_by_responsible">Suche nach Verantwortlicher</string>
+    <string name="back">Zurück</string>
+    <string name="logout">Abmelden</string>
+    <string name="save">Speichern</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="done">Erledigt</string>
+
+    <!-- All tickets strings -->
+
+    <string name="show_all_tickets">Alle Tickets zeigen</string>
+    <string name="show_all_audits">Alle Audits zeigen</string>
+    <string name="loading_ticket">Laden tickets ...</string>
+    <string name="loading_groups">Laden gruppen ...</string>
+    <string name="search_everyone">Alle</string>
+    <string name="please_wait_map_laoding">Plan wird vorbereitet. Bitte warten …</string>
+
+    <!-- Ticket Toggle button strings -->
+
+    <string name="id_status">ID/Status</string>
+    <string name="images">Abbildungen</string>
+    <string name="last_modified">Zuletzt geändert</string>
+
+    <!-- Ticket detail page strings -->
+
+    <string name="responsible">Verantwortlicher</string>
+    <string name="consulted">Konsultiert</string>
+    <string name="informed">Informiert</string>
+    <string name="due_date">Fällig am</string>
+    <string name="title">Betreff</string>
+    <string name="description">Beschreibung</string>
+    <string name="supported">Ondersteuning:</string>
+    <string name="status_created">Erstellt</string>
+    <string name="status_started">Gestartet</string>
+    <string name="status_completed">Abgeschlossen</string>
+    <string name="change">Änderungen</string>
+    <string name="change_popup_heading">Status ändern in:</string>
+
+    <!-- New Ticket page strings -->
+
+    <string name="new_ticket">Neues Ticket</string>
+    <string name="select_date">Datum wählen</string>
+    <string name="responsible_text">Verantwortlicher:</string>
+    <string name="consulted_text">Konsultiert:</string>
+    <string name="informed_text">Informiert:</string>
+    <string name="due_date_text">Fällig am:</string>
+    <string name="title_text">Betreff:</string>
+    <string name="description_text">Beschreibung:</string>
+    <string name="show_all_timeline">Zeige alle Timeline</string>
+    <string name="show_less_timeline">Zeigen weniger Timeline</string>
+    <string name="tap_here_to_enter_email">Zur Eingabe der E-mail hier klicken</string>
+    <string name="tap_here_to_enter_title">Zur Betreffeingabe hier klicken</string>
+    <string name="tap_here_to_enter_description">Zur Eingabe der Beschreibung hier klicken</string>
+
+    <!-- Audit strings -->
+
+    <string name="all_audit_header">Alle Audits</string>
+    <string name="show_template">Template anzeigen</string>
+
+    <!-- Audit Toggle button strings -->
+
+    <string name="audit_id">Audit ID</string>
+    <string name="created_date">Gemaakt Datum</string>
+    <string name="maps_used">Kaarten Gebruikt</string>
+    <string name="status">Status</string>
+    <string name="completed">%Afgerond</string>
+
+    <!-- New Audit strings -->
+
+    <string name="add_maps">Tekeningen toevoegen</string>
+    <string name="auditor_name_sig">Naam en handtekening Auditor </string>
+    <string name="sign">Aanmelden</string>
+    <string name="clear">Duidelijke</string>
+    <string name="add_maps_message">Voeg de benodigde tekeningen toe de Audit</string>
+
+    <!-- Audit detail strings -->
+
+    <string name="finish">Finish</string>
+    <string name="selected_maps">Geselecteerde tekeningen</string>
+
+    <!-- Map Selection strings -->
+
+    <string name="map_selection">Kartenauswahl</string>
+    <string name="add">Hinzufügen</string>
+
+    <!-- Show templete strings -->
+
+    <string name="start_new_audit">Start New Audit</string>
+
+    <!-- Ticket detail popup strings -->
+
+    <string name="started_on">Gestartet am:</string>
+    <string name="due_on">Fällig am:</string>
+    <string name="ticket_id">Ticket Nr:</string>
+    <string name="archive">Archivieren</string>
+    <string name="archived">Archiviert</string>
+    <string name="entries_in_timeline">Eintragungen in der Zeitlinie</string>
+    <string name="of"> Von </string>
+
+</resources>

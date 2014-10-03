@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ED Controls</string>
+    <string name="action_settings">Instellingen</string>
+
+    <!-- Project list page strings -->
+
+    <string name="project_title">ED Controls</string>
+    <string name="device_id">ID : f3863bb2317a42f4b646bb69f4db513c05df2aca</string>
+    <string name="project_issues">Ticket(s)</string>
+    <string name="settings_title">Instellingen</string>
+    <string name="show_mini_map">Laat mini-map zien</string>
+    <string name="show_first_photo">Laat eerste foto zien</string>
+    <string name="compact">Compact</string>
+    <string name="erase_data">Gegevens wissen</string>
+    <string name="last_compact_was_on">Laatste compact was:</string>
+    <string name="please_wait">Een moment geduld aub de projecten worden geladen...</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="select_user">Selecteer Gebruiker</string>
+    <string name="project_replicating">Please Wait het project is te repliceren ...</string>
+    <string name="try_again">Robeer het opnieuw ...</string>
+    <string name="photo_not_saved">Foto niet opgeslagen gelieve opnieuw te proberen ...</string>
+    <string name="no_network_connection_toast">Geen netwerk verbinding gevonden</string>
+    <string name="logged_in_as">Ingelogd als:</string>
+    <string name="app_version">App versie:</string>
+    <string name="project_information">Project informatie</string>
+    <!-- project compacting  page strings -->
+    <string name="compact">Compact</string>
+    <string name="last_compact_was_on">Laatste compact was</string>
+    <string name="compact_all_databases">Inpakken databases ...</string>
+    <string name="compact_alert_mesg">Voer alleen een Compact uit als dit nodig is. Compacting kan enkele minuten duren...</string>
+    <string name="comapact_completed">Compact is met succes afgerond</string>
+
+    <!-- Main screen strings -->
+
+    <string name="logout_message">Weet u zeker dat u wilt uitloggen?</string>
+    <string name="main_screen_settings_title">Project instellingen</string>
+    <string name="accountable">Verantwoordelijk:</string>
+    <string name="main_consulted">Geraadpleegd:</string>
+    <string name="active_user">Huidige gebruiker:</string>
+    <string name="search_ticket">Zoek op ticket</string>
+    <string name="search_by_ticket_id">Zoek op ticket ID</string>
+    <string name="search_by_responsible">Zoek op verantwoordelijke</string>
+    <string name="back">Terug</string>
+    <string name="logout">Afmelden</string>
+    <string name="save">Opslaan</string>
+    <string name="edit">Uitgeven</string>
+    <string name="done">Gereed</string>
+
+    <!-- All tickets strings -->
+
+    <string name="show_all_tickets">Laat alle tickets zien</string>
+    <string name="show_all_audits">Laat alle audits zien</string>
+    <string name="loading_ticket">Laden tickets ...</string>
+    <string name="loading_groups">Laden groepen ...</string>
+    <string name="search_everyone">Iedereen</string>
+    <string name="please_wait_map_laoding">Laden tekening. Even geduld...</string>
+
+    <!-- Ticket Toggle button strings -->
+
+    <string name="id_status">ID/Status</string>
+    <string name="images">Afbeeldingen</string>
+    <string name="last_modified">Laatse verandering</string>
+
+    <!-- Ticket detail page strings -->
+
+    <string name="responsible">Verantwoordelijk</string>
+    <string name="consulted">Geraadpleegd</string>
+    <string name="informed">Geïnformeerd</string>
+    <string name="due_date">Eind datum</string>
+    <string name="title">Onderwerp</string>
+    <string name="description">Omschrijving</string>
+    <string name="supported">Ondersteuning:</string>
+    <string name="status_created">Gecreëerd</string>
+    <string name="status_started">Gestart</string>
+    <string name="status_completed">Afgerond</string>
+    <string name="change">Veranderingen</string>
+    <string name="change_popup_heading">Wijzig status in:</string>
+
+    <!-- New Ticket page strings -->
+
+    <string name="new_ticket">Nieuw Ticket</string>
+    <string name="select_date">Selecteer datum</string>
+    <string name="responsible_text">Verantwoordelijk:</string>
+    <string name="consulted_text">Geraadpleegd:</string>
+    <string name="informed_text">Geïnformeerd:</string>
+    <string name="due_date_text">Eind datum:</string>
+    <string name="title_text">Onderwerp:</string>
+    <string name="description_text">Omschrijving:</string>
+    <string name="show_all_timeline">Toon alle tijdlijn</string>
+    <string name="show_less_timeline">Show geselecteerd tijdlijn</string>
+    <string name="tap_here_to_enter_email">Tik hier om een emailadres in te voeren</string>
+    <string name="tap_here_to_enter_title">Tik hier om een titel in te voeren</string>
+    <string name="tap_here_to_enter_description">Tik hier om een beschrijving in te voeren</string>
+
+    <!-- Audit strings -->
+
+    <string name="all_audit_header">Alle Audits</string>
+    <string name="show_template">Show Template</string>
+
+    <!-- Audit Toggle button strings -->
+
+    <string name="audit_id">Audit ID</string>
+    <string name="created_date">Gemaakt Datum</string>
+    <string name="maps_used">Kaarten Gebruikt</string>
+    <string name="status">Status</string>
+    <string name="completed">%Afgerond</string>
+
+    <!-- New Audit strings -->
+
+    <string name="add_maps">Tekeningen toevoegen</string>
+    <string name="auditor_name_sig">Naam en handtekening Auditor </string>
+    <string name="sign">Aanmelden</string>
+    <string name="clear">Duidelijke</string>
+    <string name="add_maps_message">Voeg de benodigde tekeningen toe de Audit</string>
+
+    <!-- Audit detail strings -->
+
+    <string name="finish">Finish</string>
+    <string name="selected_maps">Geselecteerde tekeningen</string>
+
+    <!-- Map Selection strings -->
+
+    <string name="map_selection">kaart Selectie</string>
+    <string name="add">Toevoegen</string>
+
+    <!-- Show templete strings -->
+
+    <string name="start_new_audit">Start New Audit</string>
+
+    <!-- Ticket detail popup strings -->
+
+    <string name="started_on">Gestart op:</string>
+    <string name="due_on">Eindigt op:</string>
+    <string name="ticket_id">Ticket ID:</string>
+    <string name="archive">Archiveer</string>
+    <string name="archived">Gearchiveerd</string>
+    <string name="entries_in_timeline">Markeringen in tijdlijn</string>
+    <string name="of"> Van </string>
+
+</resources>
