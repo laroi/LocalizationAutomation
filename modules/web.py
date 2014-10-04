@@ -25,6 +25,7 @@ def makeString(lang, args, data, env) :
     envData   = ""; # Environment varialbles (settings.json)
     fileObj   = "";
     fileData  = "";
+    position  = "";
     
     langCode = lang;
     master   = data;
@@ -37,30 +38,35 @@ def makeString(lang, args, data, env) :
         header = args.new;
     else :
         header = args.existing;
+
     platform = data[header][key]["platform"]["web"];
     value    = data[header][key]["locale"][langCode];
 
     if (platform) :
+
         try :
             fileObj  = open(filePath, 'rw+');
             fileData = fileObj.read();
-            #print fileData.index("#" + header);
-            
-            if (("#" + header) in fileData) :
 
-                fileObj.seek(fileData.index("#" + header) + len("#" + header));
-                reqString = "\n" + key + " " + "=" + " " + value + "\n";
-                #fileObj.write(reqString);
-                print reqString;
+            if (("#" + header) in fileData) :
+                # If the header is present writh key value pair under it.
+                position = fileData.index("#" + header) + len("#" + header);
+                reqString = "\n" + key + " " + "=" + " " + value;
+                fileObj.seek(0);
+                fileObj.write(fileData[:position] + reqString + fileData[position:]);
             else :
-                print "its not there in file";
-            
-            #fileObj.write(reqString);
+                # If header is not there create new header and write key value pair under it.
+                reqString = "\n" + "#" + header;
+                reqString = "\n" + key + " " + "=" + " " + value;
+                #fileObj.write(reqString);
+
             fileObj.close();
         except Exception as e :
             print "error while writing key value pair into localization files" + e;
+    
     else :
         print "Sorry! The given translation is not required for web app";
+    
 ## function makeString ends here
 
 ## function webLocalizer starts here

@@ -1,3 +1,7 @@
 #login_page
 m_btn_login = login
-t
+m_btn_logout = Logout
+#login_page
+m_btn_login = login
+m_btn_login = login
+m_btn_logout = Logout
