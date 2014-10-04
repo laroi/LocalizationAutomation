@@ -20,6 +20,7 @@ def makeString(lang, args, data, env) :
     envData   = ""; # Environment varialbles (settings.json)
     fileObj   = "";
     fileData  = "";
+    position  = "";
     
     langCode = lang;
     master   = data;
@@ -40,6 +41,16 @@ def makeString(lang, args, data, env) :
     	try :
     		fileObj = open(filePath, 'rw+');
     		fileData = fileObj.read();
+
+    		if (("/* " + header + " */") in fileData) :
+    			reqString = "\n" + '"' + key + '"' + ' ' + '=' + ' ' + '"' + value + '"';
+    			position = fileData.index("/* " + header + " */") + len("/* " + header + " */");
+    			fileObj.seek(0);
+    			fileObj.write(fileData[:position] + reqString + fileData[position:]);
+    		else :
+    			print "write key value pair along with header";
+
+    		fileObj.close();
     	except Exception as e :
     		print "error while writing key value pair into localization files" + e;
     else :
